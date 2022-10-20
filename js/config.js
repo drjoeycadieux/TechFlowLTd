@@ -30,7 +30,6 @@ function submitForm(e) {
   var name = getInputVal('email');
   var company = getInputVal('fname');
   var email = getInputVal('lname');
-  var phone = getInputVal('');
   var message = getInputVal('message');
 
   // Save message
