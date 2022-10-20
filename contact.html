@@ -26,19 +26,29 @@
       Contact
     </h1>
   </div>
-  <div class="form-group">
+  <div id="contactForm" class="form-group">
     <label for="email">Email:</label>
-    <input type="email" placeholder="Enter Your Email">
+    <input type="email" id="email" placeholder="Enter Your Email">
   </div>
   <div class="form-group">
     <label for="fname">FirstName:</label>
-    <input type="fname" placeholder="Enter Your FirstName">
+    <input type="fname" id="fname" placeholder="Enter Your FirstName">
+  </div>
+  <div class="form-group">
+    <label for="lname">FirstName:</label>
+    <input type="lname" id="lname" placeholder="Enter Your LastName">
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <textarea name="message" rows="5" id="message"></textarea>
   </div>
   <center>
-    <button class="btn btn-primary">
+    <button type="submit" class="btn btn-primary">
       Contact
     </button>
   </center>
+
+  <script src="/js/config.js"></script>
 </body>
 
 </html>
