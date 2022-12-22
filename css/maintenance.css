@@ -1,0 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header_top_navbar {
+  padding: 50px;
+  background-color: lightcoral;
+}
+.header_top_navbar h1 {
+  color: white;
+  text-align: center;
+  font-family: Sans-Serif:
+}
